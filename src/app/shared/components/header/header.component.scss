@@ -1,0 +1,21 @@
+nav > a{
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav > a.active{
+    background-color: blue;
+}
+
+.header-row{
+    width: 100%;
+}
+
+@import '~@angular/material/theming';
+
+$primary: mat-palette($mat-indigo);
+
+header {
+  margin-bottom: 20px;
+  background-color: mat-color($primary);
+}
